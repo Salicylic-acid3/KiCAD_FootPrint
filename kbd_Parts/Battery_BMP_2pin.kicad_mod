@@ -1,0 +1,10 @@
+(module Battery_BMP_2pin (layer F.Cu) (tedit 5D864AD6)
+  (fp_text reference U1 (at 0 0 270) (layer Edge.Cuts) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "BLE Micro Pro" (at 0 13.97) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 -1.544) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 0.996) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
+)

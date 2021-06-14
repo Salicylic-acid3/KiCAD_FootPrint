@@ -1,0 +1,9 @@
+(module LED_SK6812MINI-E_E (layer F.Cu) (tedit 5F4002CD)
+  (fp_text reference REF** (at 0 2.8) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value YS-SK6812MINI-E_UG_v2_e (at 0 4.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy 1.71 1.51) (xy -1.71 1.51) (xy -1.71 -1.51) (xy 1.71 -1.51)) (layer F.SilkS) (width 0.1))
+)

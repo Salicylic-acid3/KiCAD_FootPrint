@@ -1,0 +1,16 @@
+(module Magnet_Hook_Male (layer F.Cu) (tedit 5D9B7E90)
+  (fp_text reference REF** (at 0 0.3) (layer Edge.Cuts) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value mgn_leg (at 0.2 -0.7) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 11.5 -3) (end 3.5 -3) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 3.5 3) (end 11.5 3) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 3.5 3) (end 3.5 -3) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start 11.5 0) (end 11.5 3) (angle -180) (layer Edge.Cuts) (width 0.1))
+  (fp_arc (start -11.5 0) (end -11.5 -3) (angle -180) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start -3.5 -3) (end -11.5 -3) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start -11.5 3) (end -3.5 3) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start -3.5 -3) (end -3.5 3) (layer Edge.Cuts) (width 0.1))
+)

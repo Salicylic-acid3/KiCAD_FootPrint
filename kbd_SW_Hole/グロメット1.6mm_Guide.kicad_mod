@@ -1,0 +1,10 @@
+(module グロメット1.6mm_Guide (layer F.Cu) (tedit 5EBEB88D)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value グロメット1.6mm_Guide (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 4 0) (layer Dwgs.User) (width 0.15))
+  (fp_circle (center 0 0) (end 2.65 0) (layer F.SilkS) (width 0.12))
+)

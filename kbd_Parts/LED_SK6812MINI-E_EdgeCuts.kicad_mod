@@ -1,0 +1,12 @@
+(module LED_SK6812MINI-E_EdgeCuts (layer F.Cu) (tedit 5F3825D6)
+  (fp_text reference REF** (at 0 2.8) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value YS-SK6812MINI-E_UG_v2_a (at 0 4.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 4.5 -2) (end -4.5 -2) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start 4.5 2) (end 4.5 -2) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -4.5 2) (end 4.5 2) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -4.5 -2) (end -4.5 2) (layer Edge.Cuts) (width 0.12))
+)

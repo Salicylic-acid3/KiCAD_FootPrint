@@ -1,0 +1,10 @@
+(module Battery_ali_CR1632_Hole (layer F.Cu) (tedit 5F203FCF)
+  (fp_text reference BT1 (at 2.5 -4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Battery (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole oval (at -9 0) (size 2 2.8) (drill oval 2 2.8) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole oval (at 9 0) (size 2 2.8) (drill oval 2 2.8) (layers *.Cu *.Mask))
+)

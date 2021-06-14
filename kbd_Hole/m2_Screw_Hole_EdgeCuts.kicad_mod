@@ -1,0 +1,15 @@
+(module m2_Screw_Hole_EdgeCuts (layer F.Cu) (tedit 5DA73E67)
+  (descr "Mounting Hole 2.2mm, no annular, M2")
+  (tags "mounting hole 2.2mm no annular m2")
+  (attr virtual)
+  (fp_text reference Ref** (at 0 -3.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 3.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 1.1 0) (layer Edge.Cuts) (width 0.01))
+)

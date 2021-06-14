@@ -1,0 +1,16 @@
+(module SW_Hole_1.5 (layer F.Cu) (tedit 60C75873)
+  (fp_text reference SW2 (at 7 8.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value KEY_SWITCH (at -7.4 -8.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 14.2875 9.525) (end 14.2875 -9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start -14.2875 9.525) (end 14.2875 9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start -14.2875 -9.525) (end -14.2875 9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start 14.2875 -9.525) (end -14.2875 -9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start -7.1 7.1) (end -7.1 -7.1) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start 7.1 7.1) (end -7.1 7.1) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start 7.1 -7.1) (end 7.1 7.1) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start -7.1 -7.1) (end 7.1 -7.1) (layer Edge.Cuts) (width 0.15))
+)
