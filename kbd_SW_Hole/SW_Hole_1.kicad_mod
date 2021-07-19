@@ -1,4 +1,4 @@
-(module SW_Hole (layer F.Cu) (tedit 5CB3579A)
+(module SW_Hole (layer F.Cu) (tedit 60F58A59)
   (fp_text reference SW2 (at 7 8.1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -9,8 +9,8 @@
   (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer F.Fab) (width 0.15))
   (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer F.Fab) (width 0.15))
   (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer F.Fab) (width 0.15))
-  (fp_line (start -7 7) (end -7 -7) (layer Edge.Cuts) (width 0.15))
-  (fp_line (start 7 7) (end -7 7) (layer Edge.Cuts) (width 0.15))
-  (fp_line (start 7 -7) (end 7 7) (layer Edge.Cuts) (width 0.15))
-  (fp_line (start -7 -7) (end 7 -7) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start -7.05 7.05) (end -7.05 -7.05) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start 7.05 7.05) (end -7.05 7.05) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start 7.05 -7.05) (end 7.05 7.05) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start -7.05 -7.05) (end 7.05 -7.05) (layer Edge.Cuts) (width 0.15))
 )
